@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A244E381AF09F32007AE57A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A244E371AF09F32007AE57A /* Images.xcassets */; };
+		7A244E3B1AF09F32007AE57A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A244E391AF09F32007AE57A /* LaunchScreen.xib */; };
+		7A244E471AF09F33007AE57A /* HJTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A244E461AF09F33007AE57A /* HJTextViewTests.m */; };
+		7A244E5A1AF0A008007AE57A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A244E571AF0A008007AE57A /* AppDelegate.m */; };
+		7A244E5B1AF0A008007AE57A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A244E581AF0A008007AE57A /* Info.plist */; };
+		7A244E5C1AF0A008007AE57A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A244E591AF0A008007AE57A /* main.m */; };
+		7A244E5F1AF0A0AF007AE57A /* HJTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A244E5E1AF0A0AF007AE57A /* HJTextView.m */; };
+		7A244E631AF0A43F007AE57A /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A244E621AF0A43F007AE57A /* TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A244E411AF09F33007AE57A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A244E251AF09F32007AE57A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A244E2C1AF09F32007AE57A;
+			remoteInfo = HJTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A244E2D1AF09F32007AE57A /* HJTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A244E371AF09F32007AE57A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7A244E3A1AF09F32007AE57A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7A244E401AF09F33007AE57A /* HJTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A244E451AF09F33007AE57A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A244E461AF09F33007AE57A /* HJTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJTextViewTests.m; sourceTree = "<group>"; };
+		7A244E561AF0A008007AE57A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A244E571AF0A008007AE57A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A244E581AF0A008007AE57A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A244E591AF0A008007AE57A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A244E5D1AF0A0AF007AE57A /* HJTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTextView.h; sourceTree = "<group>"; };
+		7A244E5E1AF0A0AF007AE57A /* HJTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTextView.m; sourceTree = "<group>"; };
+		7A244E611AF0A43F007AE57A /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		7A244E621AF0A43F007AE57A /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A244E2A1AF09F32007AE57A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A244E3D1AF09F33007AE57A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A244E241AF09F32007AE57A = {
+			isa = PBXGroup;
+			children = (
+				7A244E2F1AF09F32007AE57A /* HJTextView */,
+				7A244E431AF09F33007AE57A /* HJTextViewTests */,
+				7A244E2E1AF09F32007AE57A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A244E2E1AF09F32007AE57A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A244E2D1AF09F32007AE57A /* HJTextView.app */,
+				7A244E401AF09F33007AE57A /* HJTextViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A244E2F1AF09F32007AE57A /* HJTextView */ = {
+			isa = PBXGroup;
+			children = (
+				7A244E521AF0A008007AE57A /* Classes */,
+				7A244E371AF09F32007AE57A /* Images.xcassets */,
+				7A244E391AF09F32007AE57A /* LaunchScreen.xib */,
+				7A244E301AF09F32007AE57A /* Supporting Files */,
+			);
+			path = HJTextView;
+			sourceTree = "<group>";
+		};
+		7A244E301AF09F32007AE57A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A244E431AF09F33007AE57A /* HJTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A244E461AF09F33007AE57A /* HJTextViewTests.m */,
+				7A244E441AF09F33007AE57A /* Supporting Files */,
+			);
+			path = HJTextViewTests;
+			sourceTree = "<group>";
+		};
+		7A244E441AF09F33007AE57A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A244E451AF09F33007AE57A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A244E521AF0A008007AE57A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7A244E531AF0A008007AE57A /* Controller */,
+				7A244E541AF0A008007AE57A /* HJTextView */,
+				7A244E551AF0A008007AE57A /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7A244E531AF0A008007AE57A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A244E611AF0A43F007AE57A /* TestViewController.h */,
+				7A244E621AF0A43F007AE57A /* TestViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7A244E541AF0A008007AE57A /* HJTextView */ = {
+			isa = PBXGroup;
+			children = (
+				7A244E5D1AF0A0AF007AE57A /* HJTextView.h */,
+				7A244E5E1AF0A0AF007AE57A /* HJTextView.m */,
+			);
+			path = HJTextView;
+			sourceTree = "<group>";
+		};
+		7A244E551AF0A008007AE57A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				7A244E561AF0A008007AE57A /* AppDelegate.h */,
+				7A244E571AF0A008007AE57A /* AppDelegate.m */,
+				7A244E581AF0A008007AE57A /* Info.plist */,
+				7A244E591AF0A008007AE57A /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A244E2C1AF09F32007AE57A /* HJTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A244E4A1AF09F33007AE57A /* Build configuration list for PBXNativeTarget "HJTextView" */;
+			buildPhases = (
+				7A244E291AF09F32007AE57A /* Sources */,
+				7A244E2A1AF09F32007AE57A /* Frameworks */,
+				7A244E2B1AF09F32007AE57A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HJTextView;
+			productName = HJTextView;
+			productReference = 7A244E2D1AF09F32007AE57A /* HJTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A244E3F1AF09F33007AE57A /* HJTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A244E4D1AF09F33007AE57A /* Build configuration list for PBXNativeTarget "HJTextViewTests" */;
+			buildPhases = (
+				7A244E3C1AF09F33007AE57A /* Sources */,
+				7A244E3D1AF09F33007AE57A /* Frameworks */,
+				7A244E3E1AF09F33007AE57A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A244E421AF09F33007AE57A /* PBXTargetDependency */,
+			);
+			name = HJTextViewTests;
+			productName = HJTextViewTests;
+			productReference = 7A244E401AF09F33007AE57A /* HJTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A244E251AF09F32007AE57A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Jeffery He";
+				TargetAttributes = {
+					7A244E2C1AF09F32007AE57A = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					7A244E3F1AF09F33007AE57A = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 7A244E2C1AF09F32007AE57A;
+					};
+				};
+			};
+			buildConfigurationList = 7A244E281AF09F32007AE57A /* Build configuration list for PBXProject "HJTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A244E241AF09F32007AE57A;
+			productRefGroup = 7A244E2E1AF09F32007AE57A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A244E2C1AF09F32007AE57A /* HJTextView */,
+				7A244E3F1AF09F33007AE57A /* HJTextViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A244E2B1AF09F32007AE57A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A244E3B1AF09F32007AE57A /* LaunchScreen.xib in Resources */,
+				7A244E381AF09F32007AE57A /* Images.xcassets in Resources */,
+				7A244E5B1AF0A008007AE57A /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A244E3E1AF09F33007AE57A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A244E291AF09F32007AE57A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A244E5C1AF0A008007AE57A /* main.m in Sources */,
+				7A244E5F1AF0A0AF007AE57A /* HJTextView.m in Sources */,
+				7A244E631AF0A43F007AE57A /* TestViewController.m in Sources */,
+				7A244E5A1AF0A008007AE57A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A244E3C1AF09F33007AE57A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A244E471AF09F33007AE57A /* HJTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A244E421AF09F33007AE57A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A244E2C1AF09F32007AE57A /* HJTextView */;
+			targetProxy = 7A244E411AF09F33007AE57A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A244E391AF09F32007AE57A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A244E3A1AF09F32007AE57A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A244E481AF09F33007AE57A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A244E491AF09F33007AE57A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A244E4B1AF09F33007AE57A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/HJTextView/Classes/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7A244E4C1AF09F33007AE57A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/HJTextView/Classes/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7A244E4E1AF09F33007AE57A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HJTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HJTextView.app/HJTextView";
+			};
+			name = Debug;
+		};
+		7A244E4F1AF09F33007AE57A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HJTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HJTextView.app/HJTextView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A244E281AF09F32007AE57A /* Build configuration list for PBXProject "HJTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A244E481AF09F33007AE57A /* Debug */,
+				7A244E491AF09F33007AE57A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A244E4A1AF09F33007AE57A /* Build configuration list for PBXNativeTarget "HJTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A244E4B1AF09F33007AE57A /* Debug */,
+				7A244E4C1AF09F33007AE57A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A244E4D1AF09F33007AE57A /* Build configuration list for PBXNativeTarget "HJTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A244E4E1AF09F33007AE57A /* Debug */,
+				7A244E4F1AF09F33007AE57A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A244E251AF09F32007AE57A /* Project object */;
+}
